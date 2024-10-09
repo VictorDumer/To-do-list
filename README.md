@@ -1,6 +1,6 @@
 # <p align="center"> 💡 Sobre o projeto </p>
 <p >
-  Este projeto é uma simples lista de afazeres do dia a dia ou até lembretes, projeto desenvolvido visando desenvolver técnicas nas áreas de css. Trabalho mentoriado pela empresa [Venturus](https://www.venturus.org.br/).
+  Este projeto é uma simples lista de afazeres do dia a dia ou até lembretes, projeto desenvolvido visando desenvolver técnicas nas áreas de css. Trabalho mentoriado pela empresa <a href="https://www.venturus.org.br/" target="_blank" rel="noreferrer noopener">Venturus</a>
 
 <h1 align="center"> 🔧 Técnologias utilizdas:</h1> 
 
