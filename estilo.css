@@ -1,16 +1,15 @@
 body {
     background-color: #DDA15E;
     padding-top: 10%;
+    font-family: 'Century Gothic', sans-serif;
+    
 }
 
 #main {
-
     background-color: white;
     width: 700px;
     margin-left: 25%;
     border-radius: 10px 90px 90px;
-    min-height: 300px;
-    max-height: 100000px;
 }
 
 #button {
@@ -33,6 +32,7 @@ h1 {
     padding-top: 46px;
     text-align: center;
     padding-bottom: 21px;
+    letter-spacing: 5px;
 }
 
 form {
@@ -43,12 +43,15 @@ form {
     background-color: #FEFAE0;
     height: 70px;
     padding-left: 103px;
-    padding-right: 103px;
+    padding-right: 113px;
     border: none;
     border-radius: 60px;
-
 }
-
+input::placeholder{
+    color: #898d85;
+    text-align: center;
+    letter-spacing: 2px;
+}
 li {
     background-color: #BC6C25;
     margin-top: 30px;
