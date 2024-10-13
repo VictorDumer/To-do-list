@@ -2,28 +2,47 @@ function addItem() {
 
     let inputValue = document.getElementById("input").value;
 
- 
+
     if (inputValue.trim() !== "") {
 
+        let listaconteudo = document.getElementById("Listas");
+
         let li = document.createElement("li");
-        li.textContent = inputValue;
 
-        
-        document.getElementById("input").value = "";
+        let label = document.createElement("label");
+        label.textContent = inputValue;
+
+        let input = document.getElementById("input");
+        input.value = "";
+
         var box = document.createElement("input");
-        box.type="checkbox"
-        box.name="r";
-        box.value="2";
-        box.id="02-11";
-        
-        var pai = document.getElementsByClassName("checkbox-wrapper-11")[0]
-        document.getElementsByClassName("checkbox-wrapper-11").appendChild(box)
+        box.type = "checkbox"
+        box.name = "r";
+        box.value = "2";
+        box.id = "02-11";
 
-        document.getElementsByClassName("checkbox-wrapper-11").appendChild(li)
+        let div1 = document.createElement("div");
+        div1.className = "checkbox-wrapper-11";
+        div1.appendChild(box);
+        div1.appendChild(label);
 
-        document.getElementById("Listas").appendChild(box);
+        let div2 = document.createElement("div");
+        div2.id = "icones";
 
-        //input id="02-11" type="checkbox" name="r" value="2">
+        var botaotrash = document.createElement("button");
+        let trash = document.createElement("i");
+        trash.className = "fa-solid fa-trash";
+        botaotrash.id = "icon"
+        botaotrash.appendChild(trash);
+        botaotrash.onclick = function () {
+            listaconteudo.removeChild(li);
+        }
+
+        div2.appendChild(botaotrash);
+
+        li.appendChild(div1);
+        li.appendChild(div2);
+        document.getElementById("Listas").appendChild(li);
     } else {
         alert("Por favor, insira um dever.");
     }
