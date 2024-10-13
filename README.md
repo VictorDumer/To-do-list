@@ -11,15 +11,13 @@
 </ul>
 
 
-<div align="center">
-  
-<h1 > ✨ Progesso: </h1>    
+#
 
-  <p><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/></p>
+<h1 align="center"> 👀 Resultado final </h1>   
 
-</div>
 
-<h1 align="center"> 👀 Prévia </h1>   
 
-https://github.com/user-attachments/assets/fd1c38b6-ae77-48fe-acfd-86d4b599bb4d
+
+
+https://github.com/user-attachments/assets/22479cac-bb51-49b9-9684-c726ab203c6c
 
